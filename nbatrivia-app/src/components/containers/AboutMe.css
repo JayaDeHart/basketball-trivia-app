@@ -1,0 +1,22 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  margin-top: 2.5%;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.blurb {
+  font-size: 1.2rem;
+  margin: 2.5% 30% 0 30%;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .blurb {
+    margin: 2.5% 15% 0 15%;
+  }
+}

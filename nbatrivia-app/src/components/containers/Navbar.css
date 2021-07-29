@@ -1,0 +1,47 @@
+.navLinkInactive {
+  color: white;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+.container-fluid {
+  flex-grow: 1;
+}
+
+.navLinkInactive:hover {
+  color: white;
+}
+.navLinkActive {
+  background-color: #fdb927;
+  color: black;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.user {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  padding-bottom: 0;
+}
+
+.logout {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.color-nav {
+  background-color: #26282a;
+}
+
+@media (max-width: 992px) {
+  .logout {
+    padding: 0.5rem 1rem;
+  }
+}

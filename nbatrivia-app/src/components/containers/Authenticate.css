@@ -1,0 +1,63 @@
+.authenticate-left {
+  margin-top: -1px;
+  background-image: url(./court2.png);
+  padding: 2.5%;
+  background-color: hsla(220, 65%, 33%, 1);
+  display: flex !important;
+  color: white;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  font-weight: 700;
+}
+
+.authenticate-left h1 {
+  margin-top: 3.5%;
+  font-size: 3.5rem;
+  filter: drop-shadow(1px 1px 6px #00008b);
+  font-family: "Tourney", cursive;
+  font-weight: 600;
+}
+.authenticate-left h3 {
+  font-size: 2rem;
+  filter: drop-shadow(2px 2px 6px #00008b);
+  font-family: "Tourney", cursive;
+  text-align: center;
+  font-weight: 900;
+}
+
+.main-form > * {
+  margin-top: 2.5%;
+}
+.container-fluid {
+  flex-grow: 1;
+}
+.authenticate-right {
+  padding: 5%;
+}
+.form-header {
+  padding-bottom: 2.5%;
+}
+
+.form-submit-button {
+  margin-top: 2.5%;
+}
+
+.mode-change-text {
+  padding-top: 2.5%;
+}
+
+.mode-change-text span {
+  text-decoration: underline;
+}
+
+.mode-change-text span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .authenticate-left {
+    display: none !important;
+  }
+}
