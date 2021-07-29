@@ -24,9 +24,13 @@ sure you have "mongod" running before you start the app. Alternatively, you can 
 <h2>Testing</h2>
 
 For route testing, there are only 3 routes: signup, login and sendAnswer. They are all POST routes
+
 signup and login take an object with {username:"xyz",password:"abc"}
+
 sendAnswer requires an object with {"playerID":"201939", "firstYearAnswer":"2009", "ppgAnswer":"12", "fgpAnswer":"45"}
+
 playerID values can be found in the players.js file
+
 sendAnswer also requires a valid JWT with the header "authorization". You can attatch this manually in postman or if you sign in on the app it will happen automatically
 
 The database stores users, which have {username, password, correctGuesses, incorrectGuesses} properties. Username is a unique identifier to prevent duplicates.
